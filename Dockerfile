@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:focal
 
 RUN apt update && DEBIAN_FRONTEND=noninteractive apt install --yes --quiet \
     dirmngr gnupg apt-transport-https ca-certificates software-properties-common
