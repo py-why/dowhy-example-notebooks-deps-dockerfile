@@ -32,3 +32,4 @@ RUN pip install sphinx_rtd_theme nbsphinx
 RUN apt install  --yes --quiet git
 RUN pip install 'git+https://github.com/petergtz/sphinx-multiversion.git@override-version-with-refname'
 RUN pip install xgboost
+RUN pip install pydata-sphinx-theme
